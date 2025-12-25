@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Professional CV</title>
+    <title>Nasir Hussain - Professional CV</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -90,8 +90,30 @@
             position: relative
         }
         
-        nav a:hover {
-            color: var(--accent-2)
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: #042027;
+            font-size: 1.2rem;
+            animation: float 4s ease-in-out infinite
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0)
+            }
+            50% {
+                transform: translateY(-8px)
+            }
+            100% {
+                transform: translateY(0)
+            }
         }
         
         main.container {
@@ -286,9 +308,9 @@
     <header class="site-header">
         <div class="nav-inner">
             <div class="brand">
-                <div class="logo">JD</div>
+                <div class="logo">NH</div>
                 <div>
-                    <h3 style="margin:0">John Doe</h3>
+                    <h3 style="margin:0">Nasir Hussain</h3>
                     <div style="font-size:0.8rem;color:var(--muted)">Senior Full Stack Developer</div>
                 </div>
             </div>
@@ -305,9 +327,15 @@
     <main class="container">
         <section class="hero">
             <div class="hero-card reveal" id="about">
-                <h1 class="hero-title">Hi, I'm John — I build delightful web experiences</h1>
-                <p class="hero-sub">Senior Full Stack Developer specializing in modern JavaScript, scalable systems, and polished user experiences. I love mentoring teams and shipping reliable products.</p>
+                <h1 class="hero-title">Hi, I'm Nasir Hussain</h1>
+                <p class="hero-sub">Highly skilled Full Stack Web Developer with over 5 years of experience in designing, developing, and optimizing web applications. Proficient in ASP.NET Web Forms, PHP, Laravel, React.js, Vue.js, Angular.js, WordPress, Shopify, WooCommerce,
+                    MySQL, MongoDB, JavaScript, Ajax, HTML5, CSS3, and Bootstrap. Experienced in backend development with ASP.NET Web Forms, Core PHP, Laravel, RESTful APIs and database management. Adept at integrating third-party APIs, developing custom
+                    WordPress plugins, and enhancing website performance. Passionate about delivering scalable, secure, and high-performing applications.<span id="hero-sub-type" style="color:var(--accent-2)"></span></p>
                 <div class="tagline">
+                    <div class="tag">PHP</div>
+                    <div class="tag">Laravel</div>
+                    <div class="tag">Wordpress</div>
+                    <div class="tag">Shopify</div>
                     <div class="tag">React</div>
                     <div class="tag">Node.js</div>
                     <div class="tag">AWS</div>
@@ -321,19 +349,19 @@
 
             <aside class="profile-card reveal">
                 <div style="display:flex;gap:12px;align-items:center">
-                    <div class="avatar">JD</div>
+                    <div class="avatar">NH</div>
                     <div>
-                        <div style="font-weight:700">John Doe</div>
+                        <div style="font-weight:700">Nasir Hussain</div>
                         <div style="color:var(--muted);font-size:0.95rem">New York, USA</div>
                     </div>
                 </div>
                 <div class="contact-list" style="margin-top:14px">
-                    <div><i class="fas fa-envelope"></i> john.doe@email.com</div>
-                    <div><i class="fas fa-phone"></i> +1 (555) 123-4567</div>
+                    <div><i class="fas fa-envelope"></i> nasirhussain034754@gmail.com</div>
+                    <div><i class="fas fa-phone"></i> (+92) 3475414355</div>
                     <div style="margin-top:8px;display:flex;gap:8px">
-                        <a href="#" style="color:var(--muted)"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" style="color:var(--muted)"><i class="fab fa-github"></i></a>
-                        <a href="#" style="color:var(--muted)"><i class="fas fa-globe"></i></a>
+                        <a href="https://www.linkedin.com/in/nasir-hussain01" target="_blank" style="color:var(--muted)"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/nasbalty01" target="_blank" style="color:var(--muted)"><i class="fab fa-github"></i></a>
+                        <a href="https://techdivsol.com/" target="_blank" style="color:var(--muted)"><i class="fas fa-globe"></i></a>
                     </div>
                 </div>
             </aside>
@@ -342,28 +370,91 @@
         <section class="grid">
             <div>
                 <div class="card reveal" id="experience">
-                    <h2 class="section-title">Experience</h2>
+                    <h2 class="section-title">Work Experience</h2>
                     <div style="margin-top:12px">
                         <div style="margin-bottom:16px">
-                            <div style="font-weight:700">Senior Full Stack Developer — Tech Solutions Inc.</div>
-                            <div style="color:var(--muted);font-size:0.9rem">Jan 2021 — Present</div>
-                            <p style="color:var(--muted);margin-top:8px">Led design and development of microservice platforms, reduced deployment time with CI/CD, and improved performance across services.</p>
+                            <div style="font-weight:700">Full Stack Web Developer — Ebridge</div>
+                            <div style="color:var(--muted);font-size:0.9rem">02/2024 — Current | Islamabad, Pakistan</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Designed and developed custom WordPress plugins to enhance website functionality.</li>
+                                <li>Maintained and updated plugins for compatibility with WordPress core updates.</li>
+                                <li>Optimized website performance, improving page load speed and SEO.</li>
+                            </ul>
                         </div>
+
+                        <div style="margin-bottom:16px">
+                            <div style="font-weight:700">Full Stack Web Developer — Rider</div>
+                            <div style="color:var(--muted);font-size:0.9rem">09/2023 — 01/2024 | Islamabad, Pakistan</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Developed scalable web applications using ASP.NET Core and Angular.</li>
+                                <li>Built real-time tracking systems for e-commerce logistics.</li>
+                                <li>Collaborated with cross-functional teams to optimize last-mile delivery solutions.</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom:16px">
+                            <div style="font-weight:700">Full Stack Web Developer — Shala GmbH</div>
+                            <div style="color:var(--muted);font-size:0.9rem">02/2023 — 08/2023 | Hannover, Germany</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Developed a custom accounting and billing software from scratch.</li>
+                                <li>Integrated secure payment processing and real-time invoicing features.</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom:16px">
+                            <div style="font-weight:700">Software Engineer — DigiLynx</div>
+                            <div style="color:var(--muted);font-size:0.9rem">01/2020 — 12/2022 | Islamabad, Pakistan</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Developed APIs for third-party integrations and improved system efficiency.</li>
+                                <li>Enhanced product search performance by 30% for a major client.</li>
+                                <li>Led database design and ensured scalability and data integrity.</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-bottom:16px">
+                            <div style="font-weight:700">Software Architect — Technology Architects</div>
+                            <div style="color:var(--muted);font-size:0.9rem">12/2019 — 11/2020 | Islamabad, Pakistan</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Managed multiple projects and provided technical guidance to a team of developers.</li>
+                                <li>Improved project decision-making time through strategic planning.</li>
+                            </ul>
+                        </div>
+
                         <div>
-                            <div style="font-weight:700">Full Stack Developer — Digital Innovations Ltd.</div>
-                            <div style="color:var(--muted);font-size:0.9rem">Jun 2018 — Dec 2020</div>
-                            <p style="color:var(--muted);margin-top:8px">Built client facing applications with React and Node.js, collaborated with designers, and deployed to AWS.</p>
+                            <div style="font-weight:700">Fullstack Web Developer — Madina Micro Systems Pvt. Ltd</div>
+                            <div style="color:var(--muted);font-size:0.9rem">03/2018 — 08/2019 | Islamabad, Pakistan</div>
+                            <ul style="color:var(--muted);margin-top:8px;padding-left:18px">
+                                <li>Developed multiple web applications with a focus on UI/UX and backend efficiency.</li>
+                                <li>Resolved performance issues to enhance application speed and reliability.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="card reveal" style="margin-top:18px" id="projects">
                     <h2 class="section-title">Projects</h2>
-                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px">
-                        <div style="background:rgba(255,255,255,0.02);padding:10px;border-radius:8px">Project A — E-commerce platform</div>
-                        <div style="background:rgba(255,255,255,0.02);padding:10px;border-radius:8px">Project B — Analytics dashboard</div>
-                        <div style="background:rgba(255,255,255,0.02);padding:10px;border-radius:8px">Project C — Design system</div>
-                        <div style="background:rgba(255,255,255,0.02);padding:10px;border-radius:8px">Project D — Microservices</div>
+                    <div style="display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px">
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>Amsco Medical</strong><br> A medical equipment and supplies distributor — <a href="https://www.amscomedical.com" target="_blank">amscomedical.com</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>Medical Shipment</strong><br> Supplier of simulation nursing supplies — <a href="https://www.medicalshipment.com" target="_blank">medicalshipment.com</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>Dsmenu</strong><br> Digital signage and menu board design platform — <a href="https://www.dsmenu.com" target="_blank">dsmenu.com</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>WooCommerce Wallet Management Plugin</strong><br> Wallet management for WooCommerce — <a href="https://github.com/nasbalty01/Woocommerce-Wallet-Management-Pulgin" target="_blank">github.com</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>WooCommerce Request a Quote</strong><br> Quotation management system — <a href="https://addify.store/product/woocommerce-request-a-quote/" target="_blank">addify.store</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>WooCommerce User Role Selection</strong><br> Role selection dropdown plugin — <a href="https://addify.store/product/wordpress-woocommerce-choose-user-roles-at-registration/" target="_blank">addify.store</a>
+                        </div>
+                        <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:8px">
+                            <strong>Post-Purchase Offer</strong><br> Post-purchase discounts plugin — <a href="https://addify.store/product/post-purchase-offer-for-woocommerce/" target="_blank">addify.store</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -391,13 +482,30 @@
                     </div>
                 </div>
 
+                <div class="card reveal" style="margin-top:18px" id="details">
+                    <h2 class="section-title">Digital Skills</h2>
+                    <div style="color:var(--muted);margin-top:8px;line-height:1.5">
+                        Programming: PHP, JavaScript (ES6+), TypeScript, Python<br> Backend: Laravel, ASP.NET Web Forms, Node.js<br> Frontend: React.js, Vue.js, Angular.js, HTML5, CSS3, Bootstrap, AJAX, jQuery<br> CMS / eCommerce: WordPress, WooCommerce,
+                        Shopify
+                        <br> Databases: MySQL, MongoDB<br> APIs & Integrations: RESTful APIs, Payment Gateways, Google Maps API<br> Tools: Git, GitHub, Bitbucket, Docker, AWS (familiar)<br> Methodologies: Agile (Scrum), Microservices, OOP
+                    </div>
+                    <h2 class="section-title" style="margin-top:12px">Certificates</h2>
+                    <div style="color:var(--muted);margin-top:8px">3 month course in ASP.Net (MVC) at SINA Academy Islamabad (Apr–Jun 2016)</div>
+
+                    <h2 class="section-title" style="margin-top:12px">Education</h2>
+                    <div style="color:var(--muted);margin-top:8px">Bachelor in Computer Science — COMSATS Institute of Information and Technology (2018)</div>
+
+                    <h2 class="section-title" style="margin-top:12px">Languages</h2>
+                    <div style="color:var(--muted);margin-top:8px">Urdu (Native), English (Fluent)</div>
+                </div>
+
                 <div class="card reveal" style="margin-top:18px" id="contact">
                     <h2 class="section-title">Contact</h2>
                     <p style="color:var(--muted);margin-top:10px">Interested in working together? Send a message or reach out on LinkedIn.</p>
                     <div style="margin-top:12px">
-                        <form onsubmit="event.preventDefault();alert('Thanks! I will respond soon.');">
-                            <input placeholder="Your email" required style="width:100%;padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:var(--muted)" />
-                            <textarea placeholder="Message" required style="width:100%;padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:var(--muted);margin-top:8px"></textarea>
+                        <form data-contact>
+                            <input type="email" name="email" placeholder="Your email" required style="width:100%;padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:var(--muted)" />
+                            <textarea name="message" placeholder="Message" required style="width:100%;padding:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:var(--muted);margin-top:8px"></textarea>
                             <button class="btn btn--primary" style="margin-top:8px">Send</button>
                         </form>
                     </div>
@@ -407,7 +515,7 @@
 
         <footer class="site-footer reveal" style="margin-top:26px">
             <div style="display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 20px">
-                <div style="color:var(--muted)">© 2025 John Doe</div>
+                <div style="color:var(--muted)">© 2025 Nasir Hussain</div>
                 <div class="fnav">
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
@@ -419,63 +527,7 @@
         </footer>
     </main>
 
-    <script>
-        // Smooth scroll for header nav
-        document.querySelectorAll('a[href^="#"]').forEach(a => {
-            a.addEventListener('click', e => {
-                const href = a.getAttribute('href');
-                if (href.startsWith('#')) {
-                    const el = document.querySelector(href);
-                    if (el) {
-                        e.preventDefault();
-                        el.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                }
-            });
-        });
-
-        // Reveal on scroll & animate skill bars
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                    // animate skill bars inside
-                    entry.target.querySelectorAll('.bar > i').forEach(i => {
-                        const w = i.getAttribute('data-width') || '0%';
-                        i.style.width = w;
-                    });
-                }
-            });
-        }, {
-            threshold: 0.12
-        });
-
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        // Highlight active nav link
-        const navLinks = document.querySelectorAll('.nav-link');
-        const sections = Array.from(navLinks).map(a => document.querySelector(a.getAttribute('href')));
-        const obs2 = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id));
-                }
-            });
-        }, {
-            threshold: 0.35
-        });
-        sections.forEach(s => {
-            if (s) obs2.observe(s);
-        });
-
-        // initial reveal for hero
-        window.addEventListener('load', () => {
-            document.querySelectorAll('.reveal').forEach((r, i) => setTimeout(() => r.classList.add('visible'), 120 * i));
-        });
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
